@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+#circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-bottom: 80px solid red;
+    border-right: 80px solid transparent;
+    
+}
+.square{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+}
+#change-color{
+    width: 100px;
+    height: 25px;
+    text-align: center;
+
+}
+#change-shape{
+    width: 100px;
+    height: 25px;
+    text-align: center;
+
+}
